@@ -1,0 +1,8 @@
+div{
+    margin: 25px;
+    border: 15px solid violet;
+    padding: 25px 25px 25px 25px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 15px 15px papayawhip;
+}
