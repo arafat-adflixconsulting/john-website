@@ -1,10 +1,17 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(#033bb8, #a8b0f4);
     color: white;
 }
 
+
+/* Hero Section */
 .hero-section{
     padding: 80px 20px;
     text-align: left;
@@ -12,4 +19,47 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;;
+}
+.her-content{
+    max-width: 700px;
+}
+
+.her-content h1{
+    font-size: 3.2rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.her-content .higtlight{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.her-content p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e4e4e4;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: white;
+  color: #033bb8;
+  padding: 14px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.cta-button span {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background-color: #e5e5ff;
 }
