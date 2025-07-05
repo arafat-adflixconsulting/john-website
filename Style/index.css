@@ -1,8 +1,15 @@
-div{
-    margin: 25px;
-    border: 15px solid violet;
-    padding: 25px 25px 25px 25px;
-    text-align: justify;
-    border-radius: 10px;
-    box-shadow: 15px 15px papayawhip;
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(#033bb8, #a8b0f4);
+    color: white;
+}
+
+.hero-section{
+    padding: 80px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;;
 }
